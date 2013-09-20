@@ -14,27 +14,28 @@
 
 using namespace std;
 
-class Algorithm
-{
+class Algorithm {
 public:
 	struct Node
 	{
 		string value;
 		Node *next;
-
 	};
+
 	struct Doublylist
 	{
 		string value;
 		Doublylist *prev;
 		Doublylist *next;
 	};
+
 	struct Circularlist
 	{
 		string value;
 		int ref_bit;
 		Circularlist *next;
 	};
+
 	struct ResultSet
 	{
 		int page_replacements;
